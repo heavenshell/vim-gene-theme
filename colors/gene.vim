@@ -13,8 +13,9 @@ if version > 580
 endif
 let g:colors_name='gene'
 
-highlight SpecialKey    term=bold ctermfg=238 guifg=#515151
-highlight NonText       term=bold ctermfg=238 gui=bold guifg=#515151
+highlight SpecialKey    term=bold ctermfg=247 ctermbg=236 guifg=#9e9e9e guibg=#303030
+highlight NonText       term=bold ctermfg=247 gui=bold ctermbg=236 guifg=#9e9e9e guibg=#303030
+
 highlight Directory     term=bold ctermfg=11 guifg=Cyan
 highlight ErrorMsg      term=standout ctermfg=15 ctermbg=4 guifg=White guibg=Red
 highlight IncSearch     term=reverse cterm=reverse gui=reverse
